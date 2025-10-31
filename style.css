@@ -21,3 +21,24 @@ h1{
     background-color: #444;
     transition: background-color 0.3s;
 }
+
+#botooes button{
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Cor do botão*/
+#btnVermelho {background-color: #ff4c4c;}
+#btnAmarelo {background-color: #ffe600;}
+#btnVerde {background-color: #51ff00;}
+#btnauto {background-color: #b4b4b4;}
+#btnparar {background-color: #ff9317;}
+
+
+/* Estilo das luzes acesas*/
+.acesa.vermelha {background-color: red;}
+.acesa.amarela {background-color: yellow;}
+.acesa.verde {background-color: green;}

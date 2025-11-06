@@ -8,37 +8,39 @@ h1{
 }
 #semaforo{
     width: 100px;
-    background-color:#222;
-    padding: 20px;
-    margin: 0 auto 20px auto;
+    background-color: #222;
+    padding: 60px;
+    margin: 0 auto 200px auto;
     border-radius: 20px;
 }
 .luz{
-    width: 60px;
-    height: 60px;
-    margin: 15px auto;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
     border-radius: 50%;
     background-color: #444;
     transition: background-color 0.3s;
 }
 
-#botooes button{
+#botoes button{
     margin: 5px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+
 }
 /* Cor do botão*/
 #btnVermelho {background-color: #ff4c4c;}
-#btnAmarelo {background-color: #ffe600;}
-#btnVerde {background-color: #51ff00;}
-#btnauto {background-color: #b4b4b4;}
-#btnparar {background-color: #ff9317;}
+#btnAmarelo{background-color: #ffe600;}
+#btnVerde{background-color: #51ff00;}
+#btnAuto{background-color: #b4b4b4;}
+#btnParar{background-color: #ff9317;}
 
+/* Estilo das luzes acesa*/
 
-/* Estilo das luzes acesas*/
-.acesa.vermelha {background-color: red;}
-.acesa.amarela {background-color: yellow;}
+.acesa.vermelho {background-color: red;}
+.acesa.amarelo {background-color: yellow;}
 .acesa.verde {background-color: green;}
+
